@@ -131,5 +131,10 @@
   <ItemGroup>
     <None Include="Resources\1674964966_top-fon-com-p-fon-dlya-prezentatsii-gradient-temnii-1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="LeaderBoard.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
